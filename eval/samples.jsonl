@@ -1,0 +1,12 @@
+{"message": "Write a Python script to scrape table data using BeautifulSoup", "expected_agent": "code", "type": "domain"}
+{"message": "How do I optimize this slow SQL join on users and orders?", "expected_agent": "code", "type": "domain"}
+{"message": "Calculate the median and interquartile range for these values: 12, 15, 18, 22, 30", "expected_agent": "data", "type": "domain"}
+{"message": "Which visualization type is best to show customer churn over 12 months?", "expected_agent": "data", "type": "domain"}
+{"message": "Please rewrite this customer support email to be more empathetic and concise", "expected_agent": "writing", "type": "domain"}
+{"message": "Summarize the key takeaways of this quarterly business review in 3 bullets", "expected_agent": "writing", "type": "domain"}
+{"message": "What is the airspeed velocity of an unladen swallow?", "expected_agent": "general", "type": "domain"}
+{"message": "Hi, can you help me today?", "expected_agent": "general", "type": "domain"}
+{"message": "/code write a bash script to rotate logs", "expected_agent": "code", "type": "override"}
+{"message": "/write draft an announcement for our upcoming outage", "expected_agent": "writing", "type": "override"}
+{"message": "And can you also add error handling to that function?", "expected_agent": "code", "type": "follow_up"}
+{"message": "I need help with a spreadsheet and a python script", "expected_agent": null, "type": "clarify_candidate"}

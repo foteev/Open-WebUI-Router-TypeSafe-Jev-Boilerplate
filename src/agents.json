@@ -1,0 +1,66 @@
+[
+  {
+    "id": "code",
+    "label": "Code & Engineering",
+    "target": "qwen3.8",
+    "override": "/code",
+    "route_criteria": {
+      "what": "Programming, software development, debugging, scripting, SQL queries, system architecture, API design, DevOps, terminal commands, and technical implementation.",
+      "not_for": "General creative writing, marketing copy, generic conversational questions without code.",
+      "examples": [
+        "How do I write a retry decorator in Python?",
+        "Fix this Dockerfile for a Next.js application",
+        "Write a SQL query to find churned subscribers",
+        "Why is my async loop throwing a RuntimeError?"
+      ]
+    }
+  },
+  {
+    "id": "data",
+    "label": "Data & Analytics",
+    "target": "deepseek-v4-flash",
+    "override": "/data",
+    "route_criteria": {
+      "what": "Data exploration, statistical analysis, spreadsheet calculations, metric definitions, chart recommendations, forecasting, and data interpretation.",
+      "not_for": "Writing code modules from scratch (use Code), generic text editing (use Writing).",
+      "examples": [
+        "What is the formula for calculating customer lifetime value?",
+        "Analyze the trend in these monthly revenue numbers",
+        "Which statistical test should I use to compare these two cohorts?",
+        "Calculate the 95th percentile latency from this distribution"
+      ]
+    }
+  },
+  {
+    "id": "writing",
+    "label": "Writing & Communication",
+    "target": "gemini-flash-latest",
+    "override": "/write",
+    "route_criteria": {
+      "what": "Drafting emails, rewriting text, editing for tone and clarity, summarizing articles, blog posts, translations, and business correspondence.",
+      "not_for": "Coding, technical bug fixes, data analysis or calculations.",
+      "examples": [
+        "Rewrite this email to sound more professional and polite",
+        "Summarize this meeting transcript in 5 bullet points",
+        "Proofread this product release announcement",
+        "Translate this customer announcement into Spanish"
+      ]
+    }
+  },
+  {
+    "id": "general",
+    "label": "General Assistant",
+    "target": "gemma4:8b",
+    "override": "/general",
+    "route_criteria": {
+      "what": "General knowledge, quick factual queries, brainstorming, small talk, explanations of broad concepts, and questions that do not require specialized technical, data, or writing tools.",
+      "not_for": "Specific software engineering problems, deep data calculations, lengthy document writing.",
+      "examples": [
+        "What is the capital of Australia?",
+        "Explain quantum computing in simple terms",
+        "Give me 5 brainstorm ideas for a team offsite",
+        "Hello! How are you today?"
+      ]
+    }
+  }
+]
